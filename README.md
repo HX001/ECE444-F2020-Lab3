@@ -1,5 +1,5 @@
 # ECE444-F2020-Lab3
-THis is Hong Xu, this repo is a clone of https://github.com/miguelgrinberg/flasky
+This is Hong Xu, this repo is a clone of https://github.com/miguelgrinberg/flasky
 
 ## Activity 1: Replay and modify example in Chapter 3
 <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/Activity%201.png" height="50%" width="50%">
@@ -9,10 +9,10 @@ THis is Hong Xu, this repo is a clone of https://github.com/miguelgrinberg/flask
 <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/Activity%202.1.png" height="50%" width="50%">
 
 ### 2.2:
-<img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/Activity%202.2.png" height="70%" width="70%">
+<img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/Activity%202.2.png" height="50%" width="50%">
 
 ### 2.3:
-<img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/Activity%202.3.png" height="70%" width="70%">
+<img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/Activity%202.3.png" height="50%" width="50%">
 
 ### 2.4:
 <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/Activity%202.4.png" height="50%" width="50%">
