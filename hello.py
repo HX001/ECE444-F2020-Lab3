@@ -26,7 +26,7 @@ def emailCheck(form, field):
 
 class Form(FlaskForm):
     name = StringField('What is your name?', validators=[DataRequired()])
-    email = EmailField('What is your UofT Email address?', validators=[DataRequired(), emailCheck])
+    # email = EmailField('What is your UofT Email address?', validators=[DataRequired(), emailCheck])
     submit = SubmitField('Submit')
 
 
@@ -48,12 +48,13 @@ def index():
         old_email = session.get('email')
         if old_name is not None and old_name != form.name.data:
             flash('Looks like you have changed your name!')
-        if old_email is not None and old_email != form.email.data:
-            flash('Looks like you have changed your email!')
+        # if old_email is not None and old_email != form.email.data:
+        #     flash('Looks like you have changed your email!')
         session['name'] = form.name.data
-        session['email'] = form.email.data
+        # session['email'] = form.email.data
         return redirect(url_for('index'))
-    return render_template('index.html', form=form, name=session.get('name'), email=session.get('email'))
+    return render_template('index.html', form=form, name=session.get('name'))
+    # return render_template('index.html', form=form, name=session.get('name'), email=session.get('email'))
 
 
 @app.route('/user/<name>')
