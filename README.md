@@ -6,10 +6,10 @@ This is Hong Xu, this repo is a clone of https://github.com/miguelgrinberg/flask
 
 ## Activity 2: Replay and modify example in Chapter 4
 
-### 2.1 replay example 4.7 with commite
+### 2.1 Replay example 4.7 with commite
 <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/replay%20example4.7%20from%20textbook.png">
 
-### 2.2 add email field with key word checking 'utoronto'
+### 2.2 Add email field with key word checking 'utoronto'
 <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/add%20email%20field.png">
 
 ### 2.3 Reproduce example 4-7 with addition email field
