@@ -6,22 +6,22 @@ This is Hong Xu, this repo is a clone of https://github.com/miguelgrinberg/flask
 
 ## Activity 2: Replay and modify example in Chapter 4
 
-### 2.1 replay example 4.7 with commite
+2.1 replay example 4.7 with commite
 <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/replay%20example4.7%20from%20textbook.png">
 
-### 2.2 add email field with key word checking 'utoronto'
+2.2 add email field with key word checking 'utoronto'
 <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/add%20email%20field.png">
 
-### 2.3:Reproduce example 4-7
+2.3 Reproduce example 4-7
 <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/Activity%202.1.png" height="50%" width="50%">
 
-### 2.4:Fill in your First name and your UofT email address, click submit
+2.4 Fill in your First name and your UofT email address, click submit
 <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/Activity%202.2.png" height="50%" width="50%">
 
-### 2.5:Fill in your First name and Last name in the 1st field, and fill in your first name in the 2nd field, click submit.
+2.5 Fill in your First name and Last name in the 1st field, and fill in your first name in the 2nd field, click submit.
 <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/Activity%202.3.png" height="50%" width="50%">
 
-### 2.6:Fill in your First name and Last name in the 1st field, and fill in your NON UofT email in the 2nd field, click submit.
+2.6 Fill in your First name and Last name in the 1st field, and fill in your NON UofT email in the 2nd field, click submit.
 <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/Activity%202.4.png" height="50%" width="50%">
 
 
