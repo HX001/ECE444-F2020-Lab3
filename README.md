@@ -1,30 +1,69 @@
-# ECE444-F2020-Lab3
+# ECE444-Lab-Week4&5: Docker Intro
 This is Hong Xu, this repo is a clone of https://github.com/miguelgrinberg/flasky
 
-## Activity 1: Replay and modify example in Chapter 3
-<img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/Activity%201.png" height="50%" width="50%">
+## Activity 1 (1pt): 
+Perform all development in a branch "lab4_Microservice_Experiment" in your Lab3 task GitHub repository. 
 
-## Activity 2: Replay and modify example in Chapter 4
-### 2.1:
-<img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/Activity%202.1.png" height="50%" width="50%">
+## Activity 2: Docker and Screenshots
+- To build and start, first clone the repository: 
 
-### 2.2:
-<img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/Activity%202.2.png" height="50%" width="50%">
+  ` https://github.com/HX001/ECE444-F2020-Lab3/tree/lab4_Microservice_Experiment `
+- Check out the branch:
 
-### 2.3:
-<img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/Activity%202.3.png" height="50%" width="50%">
+  ` git checkout lab4_Microservice_Experiment`
 
-### 2.4:
-<img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/master/ScreenShot/Activity%202.4.png" height="50%" width="50%">
+- Download the docker if you dont have:
+
+  https://docs.docker.com/get-started/
+  
+- Two way to start:
+  - Method 1:
+    To build: 
+    
+    `docker build -t flask-sample:latest .`
+    
+    To run: 
+    
+    `docker run -d -p 5000:5000 flask-sample`
+    
+  - Method 2:
+    Simply use docker-compose: 
+    
+    `docker-compose up`
+    
+- To check the img:  
+
+  `docker ps -a`
+
+- The **dockerfiles** and **requirements.txt** and **docker-compose.yml** are located in the root directory of this repository:  
+
+  `https://github.com/HX001/ECE444-F2020-Lab3/tree/lab4_Microservice_Experiment`
+
+- The followings are the screenshots:
+  - The screenshot of Lab 3 Acitivty 2 application running in docker
+    <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/ScreenShot/Lab4/UI.png" height="50%" width="50%">
+  
+  - The screenshot of container logs
+    <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/ScreenShot/Lab4/Container%20Log.png" height="50%" width="50%">
+    
+  - The screenshot of docker run command 
+    <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/ScreenShot/Lab4/Docker%20Run%20Command.png" height="50%" width="50%">
+    
+  - The screenshot of image status
+    <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/ScreenShot/Lab4/Docker%20Image.png" height="50%" width="50%">
+   
+  - The screenshot of docker-compose
+    <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/ScreenShot/Lab4/docker-compose.png" height="50%" width="50%">
+    
 
 
-## Activity 3: The difference between SQL or NoSQL database.
-SQL | NoSQL
+
+## Activity 3: Briefly summarize the differences between Docker and Virtual Machine.
+Docker | Virtual Machine
 ------------ | -------------
-SQL databases are  Relational Databases (RDBMS) | NoSQL database are non-relational or distributed database
-SQL databases are table based databases | NoSQL databases are document based, key-value pairs, graph databases or wide-column stores
-SQL databases have predefined schema | NoSQL databases have dynamic schema for unstructured data
-SQL databases are vertically scalable | NoSQL databases are horizontally scalable
-SQL databases uses SQL ( structured query language ) for defining and manipulating the data | NoSQL Queries are focused on collection of documents. Also called as UnQL (Unstructured Query Language)
-SQL databases are good fit for the complex query intensive environment | NoSQL databases are not good fit for complex queries
-SQL databases are not best fit for hierarchical data storage | NoSQL database fits better for the hierarchical data storage as it follows the key-value pair way of storing data similar to JSON data
+Docker does not required operating systems, it runs the images and containers on host operating systems | VM creates guest OS above the host OS on host server, then run application inside of it. Every VM runs in it own virtual OS.
+Lightweight (KBs/MBs) | Heavyweight (few GBs)
+OS level process isolation | Hardware-level process isolation
+Require fewer resources, less memory space | Allocate required memory
+Process-level isolation, possibly less secure | Fully isolated, more secure
+Takes a few seconds to run (In second) | Takes longer time to start a VM (In minutes)
