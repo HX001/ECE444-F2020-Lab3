@@ -6,7 +6,7 @@ Perform all development in a branch "lab4_Microservice_Experiment" in your Lab3 
 
 ## Activity 2: Docker and Screenshots
 - To build and start, first clone the repository: 
-  ` git clone https://github.com/HX001/ECE444-F2020-Lab3.git '
+  ` git clone https://github.com/HX001/ECE444-F2020-Lab3.git `
 - Check out the branch:
   ` git checkout lab4_Microservice_Experiment`
 
