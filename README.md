@@ -18,6 +18,7 @@ Perform all development in a branch "lab4_Microservice_Experiment" in your Lab3 
   
 - Two way to start:
   - Method 1:
+  
     To build: 
     
     `docker build -t flask-sample:latest .`
@@ -27,6 +28,7 @@ Perform all development in a branch "lab4_Microservice_Experiment" in your Lab3 
     `docker run -d -p 5000:5000 flask-sample`
     
   - Method 2:
+  
     Simply use docker-compose: 
     
     `docker-compose up`
@@ -40,6 +42,7 @@ Perform all development in a branch "lab4_Microservice_Experiment" in your Lab3 
   `https://github.com/HX001/ECE444-F2020-Lab3/tree/lab4_Microservice_Experiment`
 
 - The followings are the screenshots:
+
   - The screenshot of Lab 3 Acitivty 2 application running in docker:
   
     <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/ScreenShot/Lab4/UI.png" height="70%" width="70%">
