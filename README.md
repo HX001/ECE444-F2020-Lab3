@@ -40,20 +40,25 @@ Perform all development in a branch "lab4_Microservice_Experiment" in your Lab3 
   `https://github.com/HX001/ECE444-F2020-Lab3/tree/lab4_Microservice_Experiment`
 
 - The followings are the screenshots:
-  - The screenshot of Lab 3 Acitivty 2 application running in docker
-    <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/ScreenShot/Lab4/UI.png" height="50%" width="50%">
+  - The screenshot of Lab 3 Acitivty 2 application running in docker:
   
-  - The screenshot of container logs
-    <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/ScreenShot/Lab4/Container%20Log.png" height="50%" width="50%">
+    <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/ScreenShot/Lab4/UI.png" height="70%" width="70%">
+  
+  - The screenshot of container logs:
+      
+     <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/ScreenShot/Lab4/Container%20Log.png" height="70%" width="70%">
     
-  - The screenshot of docker run command 
-    <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/ScreenShot/Lab4/Docker%20Run%20Command.png" height="50%" width="50%">
+  - The screenshot of docker run command :
+  
+    <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/ScreenShot/Lab4/Docker%20Run%20Command.png" height="70%" width="70%">
     
-  - The screenshot of image status
-    <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/ScreenShot/Lab4/Docker%20Image.png" height="50%" width="50%">
+  - The screenshot of image status:
+  
+    <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/ScreenShot/Lab4/Docker%20Image.png" height="70%" width="70%">
    
-  - The screenshot of docker-compose
-    <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/ScreenShot/Lab4/docker-compose.png" height="50%" width="50%">
+  - The screenshot of docker-compose:
+  
+    <img src="https://github.com/HX001/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/ScreenShot/Lab4/docker-compose.png" height="70%" width="70%">
     
 
 
