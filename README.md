@@ -61,9 +61,9 @@ Perform all development in a branch "lab4_Microservice_Experiment" in your Lab3 
 ## Activity 3: Briefly summarize the differences between Docker and Virtual Machine.
 Docker | Virtual Machine
 ------------ | -------------
-Docker does not required operating systems, it runs the images and containers on host operating systems | VM creates guest OS above the host OS on host server, then run application inside of it. Every VM runs in it own virtual OS.
+Docker does not required operating systems, it runs on host operating systems | Every Virtual Machine runs in it own virtual OS. Virtual Machine creates guest OS above the host OS on host server, then run application inside of it. 
 Lightweight (KBs/MBs) | Heavyweight (few GBs)
 OS level process isolation | Hardware-level process isolation
 Require fewer resources, less memory space | Allocate required memory
 Process-level isolation, possibly less secure | Fully isolated, more secure
-Takes a few seconds to run (In second) | Takes longer time to start a VM (In minutes)
+Takes a few seconds to boot (In second) | Takes longer time to start a VM (In minutes)
